@@ -28,6 +28,10 @@ Define tests for the 22 change scenarios, in addition to the 3 given as examples
     size() returns 0
     toString returns "[]"
 
+
+
+    asdfasdfasdfasdfasdf
+
     //TODO: Tests 2 - 5
 2) [] -> addToFront(A) -> [A]
 3) [] -> addToRear(A) -> [A]
