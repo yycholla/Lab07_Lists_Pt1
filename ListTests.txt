@@ -30,6 +30,7 @@ Define tests for the 22 change scenarios, in addition to the 3 given as examples
 
     //TODO: Tests 2 - 5 See Scenario 1
 2) [] -> addToFront(A) -> [A]
+
 3) [] -> addToRear(A) -> [A]
 4) [] -> add(A) -> [A]
 5) [] -> add(0,A) -> [A]
