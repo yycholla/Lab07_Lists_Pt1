@@ -28,7 +28,7 @@ Define tests for the 22 change scenarios, in addition to the 3 given as examples
     size() returns 0
     toString returns "[]"
 
-    //TODO: Tests 2 - 5
+    //TODO: Tests 2 - 5 See Scenario 1
 2) [] -> addToFront(A) -> [A]
 3) [] -> addToRear(A) -> [A]
 4) [] -> add(A) -> [A]
@@ -80,11 +80,13 @@ Define tests for the 22 change scenarios, in addition to the 3 given as examples
 10) [A] -> add(0,B) -> [B,A]
 11) [A] -> add(1,B) -> [A,B]
 
-//TODO 12-15
+//TODO 12-15 see Scenario 1
 12) [A] -> removeFirst() -> []
 13) [A] -> removeLast() -> []
 14) [A] -> remove(A) -> []
 15) [A] -> remove(0) -> []
+
+//TODO 16 One element list
 16) [A] -> set(0,B) -> [B]
 17) [A,B] -> addToFront(C) -> [C,A,B]
 18) [A,B] -> addToRear(C) -> [A,B,C]
@@ -94,6 +96,8 @@ Define tests for the 22 change scenarios, in addition to the 3 given as examples
 22) [A,B] -> add(0,C) -> [C,A,B]
 23) [A,B] -> add(1,C) -> [A,C,B]
 24) [A,B] -> add (2,C) -> [A,B,C]
+
+//TODO 25-30 One element list
 25) [A,B] -> removeFirst() -> [B]
 26) [A,B] -> removeLast() -> [A]
 27) [A,B] -> remove(A) -> [B]
