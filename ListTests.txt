@@ -250,11 +250,19 @@ Define tests for the 22 change scenarios, in addition to the 3 given as examples
 
 24) [A,B] -> add (2,C) -> [A,B,C]
 
-//TODO 25-30 One element list
+//TODO #22 Scenario 25 @LordUzumaki
 25) [A,B] -> removeFirst() -> [B]
+
+//TODO #23 Scenario 26 @LordUzumaki
 26) [A,B] -> removeLast() -> [A]
+
+//TODO #24 Scenario 27 @LordUzumaki
 27) [A,B] -> remove(A) -> [B]
+
+//TODO #25 Scenario 28 @LordUzumaki
 28) [A,B] -> remove(B) -> [A]
+
+//TODO #26 Scenario 29 @LordUzumaki
 29) [A,B] -> remove(0) -> [B]
 
 //TODO #9 Scenario 30 @Pixel-Meister
