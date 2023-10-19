@@ -35,14 +35,9 @@ Tests:
     addToRear(X) throws no Exception
     addAfter(X, Z) throws NoSuchElementException
     addAfter(A, X) throws no Exception
-    addAfter(A, X) throws no Exception
     add(X) throws no Exception
     add(-1, X) throws IndexOutOfBoundsException
     add(0, X) throws no Exception
-    add(1, X) throws no Exception
-    add(2, X) throws IndexOutOfBoundsException
-    removeFirst() returns A
-    removeLast() returns A
     add(1, X) throws no Exception
     add(2, X) throws IndexOutOfBoundsException
     removeFirst() returns A
@@ -51,22 +46,13 @@ Tests:
     remove(-1) throws IndexOutOfBoundsException
     remove(0) returns A
     remove(1)throws IndexOutOfBoundsException
-    remove(0) returns A
-    remove(1)throws IndexOutOfBoundsException
     set(-1, X) throws IndexOutOfBoundsException
-    set(0, X) throws no Exception
-    set(1, X) throws IndexOutOfBoundsException
     set(0, X) throws no Exception
     set(1, X) throws IndexOutOfBoundsException
     get(-1) throws IndexOutOfBoundsException
     get(0) returns A
     get(1) throws IndexOutOfBoundsException
-    get(0) returns A
-    get(1) throws IndexOutOfBoundsException
     indexOf(X) returns -1
-    indexOf(A) returns 0
-    first() returns A
-    last() Returns A
     indexOf(A) returns 0
     first() returns A
     last() Returns A
@@ -93,11 +79,15 @@ Tests:
     remove(X) throws NoSuchElementException
     remove(-1) throws IndexOutOfBoundsException
     remove(0) returns A
+    remove(1)throws IndexOutOfBoundsException
     set(-1, X) throws IndexOutOfBoundsException
     set(0, X) throws no Exception
+    set(1, X) throws IndexOutOfBoundsException
     get(-1) throws IndexOutOfBoundsException
     get(0) returns A
+    get(1) throws IndexOutOfBoundsException
     indexOf(X) returns -1
+    indexOf(A) returns 0
     first() returns A
     last() Returns A
     contains(X) returns false
