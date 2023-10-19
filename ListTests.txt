@@ -30,6 +30,31 @@ Define tests for the 22 change scenarios, in addition to the 3 given as examples
 
     //TODO: Tests 2 - 5 See Scenario 1
 2) [] -> addToFront(A) -> [A]
+  Tests:
+    addToFront(X) throws no Exception
+    addToRear(X) throws no Exception
+    addAfter(X, A) throw No Exceptions
+    add(X) throws no Exception
+    add(-1, X) throws IndexOutOfBoundsException
+    add(0, X) throws no Exception
+    add(1, X) throws IndexOutOfBoundsException
+    removeFirst() throws no Exception
+    removeLast() throws no Exception
+    remove(A) throws no Exception
+    remove(-1) throws IndexOutOfBoundsException
+    remove(0) throws No Exception
+    set(-1, X) throws IndexOutOfBoundsException
+    set(0, X) throws No Exception
+    get(-1) throws IndexOutOfBoundsException
+    get(0) returns A
+    indexOf(B) returns -1
+    first() returns A
+    last() throws NoSuchElementException
+    contains(A) returns true
+    isEmpty() returns false
+    size() returns 1
+    toString returns "[A]"
+
 3) [] -> addToRear(A) -> [A]
 4) [] -> add(A) -> [A]
 5) [] -> add(0,A) -> [A]
