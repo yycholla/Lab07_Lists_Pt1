@@ -34,26 +34,33 @@ Tests:
     addToFront(X) throws no Exception
     addToRear(X) throws no Exception
     addAfter(X, Z) throws NoSuchElementException
+    addAfter(A, X) throws no Exception
     add(X) throws no Exception
     add(-1, X) throws IndexOutOfBoundsException
     add(0, X) throws no Exception
-    add(1, X) throws IndexOutOfBoundsException
-    removeFirst() throws NoSuchElementException
-    removeLast() throws NoSuchElementException
+    add(1, X) throws no Exception
+    add(2, X) throws IndexOutOfBoundsException
+    removeFirst() returns A
+    removeLast() returns A
     remove(X) throws NoSuchElementException
     remove(-1) throws IndexOutOfBoundsException
-    remove(0) throws IndexOutOfBoundsException
+    remove(0) returns A
+    remove(1)throws IndexOutOfBoundsException
     set(-1, X) throws IndexOutOfBoundsException
-    set(0, X) throws IndexOutOfBoundsException
+    set(0, X) throws no Exception
+    set(1, X) throws IndexOutOfBoundsException
     get(-1) throws IndexOutOfBoundsException
-    get(0) throws IndexOutOfBoundsException
+    get(0) returns A
+    get(1) throws IndexOutOfBoundsException
     indexOf(X) returns -1
-    first() throws NoSuchElementException
-    last() throws NoSuchElementException
+    indexOf(A) returns 0
+    first() returns A
+    last() Returns A
     contains(X) returns false
-    isEmpty() returns true
-    size() returns 0
-    toString returns "[]"
+    contains(A) returns true
+    isEmpty() returns False
+    size() returns 1
+    toString returns "[A]"
 
 //TODO #11 Scenario 3 @yycholla
 3) [] -> addToRear(A) -> [A]
