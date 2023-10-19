@@ -1,0 +1,23 @@
+Count	Scenario                        Test no.	Owner
+1		Starts/ends 0	                2		
+2		Starts/ends 0	                3		
+3		Starts/ends 0	                4		
+4		Starts/ends 0	                5		
+5		Starts/ends 0	                12		
+6		Starts/ends 0	                13		
+7		Starts/ends 0	                14		
+8		Starts/ends 0	                15		
+9		Ends with 1		                16		
+10		Ends with 1		                25		
+11		Ends with 1		                26		
+12		Ends with 1		                27		
+13		Ends with 1		                28		
+14		Ends with 1		                29		
+15		Ends with 1		                30		    Justin
+16		Starts with 1, ends with 2		7		    Ellis
+17		Starts with 1, ends with 2		10		    Ellis
+18		Starts with 2, ends with 3		17		    Justin
+19		Starts with 2, ends with 3		20		    Justin
+20		Starts with 2, ends with 3		23		    Justin
+21		Starts with 3, ends with 2		33		    Ellis
+22		Starts with 3, ends with 2		37		    Ellis
