@@ -228,8 +228,39 @@ Define tests for the 22 change scenarios, in addition to the 3 given as examples
 //TODO #17 Scenario 15 @Bloop1542
 15) [A] -> remove(0) -> []
 
-//TODO 16 One element list
+//TODO #27 16 One element list @yycholla
 16) [A] -> set(0,B) -> [B]
+Tests:
+    addToFront(X) throws no Exception
+    addToRear(X) throws no Exception
+    addAfter(X, Z) throws NoSuchElementException
+    addAfter(B, X) throws no Exception
+    add(X) throws no Exception
+    add(-1, X) throws IndexOutOfBoundsException
+    add(0, X) throws no Exception
+    add(1, X) throws no Exception
+    add(2, X) throws IndexOutOfBoundsException
+    removeFirst() returns B
+    removeLast() returns B
+    remove(X) throws NoSuchElementException
+    remove(-1) throws IndexOutOfBoundsException
+    remove(0) returns B
+    remove(1)throws IndexOutOfBoundsException
+    set(-1, X) throws IndexOutOfBoundsException
+    set(0, X) throws no Exception
+    set(1, X) throws IndexOutOfBoundsException
+    get(-1) throws IndexOutOfBoundsException
+    get(0) returns B
+    get(1) throws IndexOutOfBoundsException
+    indexOf(X) returns -1
+    indexOf(B) returns 0
+    first() returns B
+    last() Returns B
+    contains(X) returns false
+    contains(B) returns true
+    isEmpty() returns False
+    size() returns 1
+    toString returns "[B]"
 
 //TODO #6 Scenario 17 @Pixel-Meister
 17) [A,B] -> addToFront(C) -> [C,A,B]
