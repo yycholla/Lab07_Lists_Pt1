@@ -322,7 +322,8 @@ Define tests for the 22 change scenarios, in addition to the 3 given as examples
 
 
 //TODO #25 Scenario 28 @LordUzumaki
-28) [A,B] -> remove(B) -> [A] 
+28) [A,B] -> remove(B) -> [A]
+
   Tests:
     addToFront(X) throws no Exceptions
     addToRear(X) throws no Exceptions
