@@ -647,6 +647,38 @@ Tests:
 
 //TODO #22 Scenario 25 @LordUzumaki
 25) [A,B] -> removeFirst() -> [B]
+Tests:
+      addToFront(X) throws no Exception
+      addToRear(X) throws no Exception
+      addAfter(X, Z) throws NoSuchElementException
+      addAfter(A, B) throws no Exception
+      add(X) throws no Exception
+      add(-1, X) throws IndexOutOfBoundsException
+      add(0, X) throws no Exception
+      add(1, X) throws no Exception
+      add(2, X) throws IndexOutOfBoundsException
+      removeFirst() returns B
+      removeLast() returns B
+      remove(X) throws NoSuchElementException
+      remove(B) returns B
+      remove(-1) throws IndexOutOfBoundsException
+      remove(0) returns B
+      remove(1)throws IndexOutOfBoundsException
+      set(-1, X) throws IndexOutOfBoundsException
+      set(0, X) throws no Exception
+      set(1, X) throws IndexOutOfBoundsException
+      get(-1) throws IndexOutOfBoundsException
+      get(0) returns B
+      get(1) throws IndexOutOfBoundsException
+      indexOf(X) returns -1
+      indexOf(A) returns 0
+      first() returns B
+      last() Returns B
+      contains(X) returns false
+      contains(A) returns true
+      isEmpty() returns false
+      size() returns 1
+      toString returns "[B]"
 
 //TODO #23 Scenario 26 @LordUzumaki
 26) [A,B] -> removeLast() -> [A]
