@@ -282,63 +282,6 @@ Define tests for the 22 change scenarios, in addition to the 3 given as examples
     size() returns 0
     toString returns "[]"
 
-//TODO #15 Scenario 13 @Bloop1542
-13) [A] -> removeLast() -> []
-  Tests:
-    addToFront(X) throws no Exception
-    addToRear(X) throws no Exception
-    addAfter(X, Z) throws NoSuchElementException
-    add(X) throws no Exception
-    add(-1, X) throws IndexOutOfBoundsException
-    add(0, X) throws no Exception
-    add(1, X) throws IndexOutOfBoundsException
-    removeFirst() throws NoSuchElementException
-    removeLast() throws NoSuchElementException
-    remove(X) throws NoSuchElementException
-    remove(-1) throws IndexOutOfBoundsException
-    remove(0) throws IndexOutOfBoundsException
-    remove(1) throws IndexOutOfBoundsException
-    set(-1, X) throws IndexOutOfBoundsException
-    set(0, X) throws IndexOutOfBoundsException
-    set(1, X) throws IndexOutOfBoundsException
-    get(-1) throws IndexOutOfBoundsException
-    get(0) throws IndexOutOfBoundsException
-    get(1) throws IndexOutOfBoundsException
-    indexOf(X) returns -1
-    first() throws NoSuchElementException
-    last() throws NoSuchElementException
-    contains(X) returns false
-    isEmpty() returns true
-    size() returns 0
-    toString returns "[]"
-  Tests:
-    addToFront(X) throws no Exception
-    addToRear(X) throws no Exception
-    addAfter(X, Z) throws NoSuchElementException
-    add(X) throws no Exception
-    add(-1, X) throws IndexOutOfBoundsException
-    add(0, X) throws no Exception
-    add(1, X) throws IndexOutOfBoundsException
-    removeFirst() throws NoSuchElementException
-    removeLast() throws NoSuchElementException
-    remove(X) throws NoSuchElementException
-    remove(-1) throws IndexOutOfBoundsException
-    remove(0) throws IndexOutOfBoundsException
-    remove(1) throws IndexOutOfBoundsException
-    set(-1, X) throws IndexOutOfBoundsException
-    set(0, X) throws IndexOutOfBoundsException
-    set(1, X) throws IndexOutOfBoundsException
-    get(-1) throws IndexOutOfBoundsException
-    get(0) throws IndexOutOfBoundsException
-    get(1) throws IndexOutOfBoundsException
-    indexOf(X) returns -1
-    first() throws NoSuchElementException
-    last() throws NoSuchElementException
-    contains(X) returns false
-    isEmpty() returns true
-    size() returns 0
-    toString returns "[]"
-
 //TODO #16 Scenario 14 @Bloop1542
 14) [A] -> remove(A) -> []
   Tests:
@@ -352,33 +295,7 @@ Define tests for the 22 change scenarios, in addition to the 3 given as examples
     removeFirst() throws NoSuchElementException
     removeLast() throws NoSuchElementException
     remove(X) throws NoSuchElementException
-    remove(-1) throws IndexOutOfBoundsException
-    remove(0) throws IndexOutOfBoundsException
-    remove(1) throws IndexOutOfBoundsException
-    set(-1, X) throws IndexOutOfBoundsException
-    set(0, X) throws IndexOutOfBoundsException
-    set(1, X) throws IndexOutOfBoundsException
-    get(-1) throws IndexOutOfBoundsException
-    get(0) throws IndexOutOfBoundsException
-    get(1) throws IndexOutOfBoundsException
-    indexOf(X) returns -1
-    first() throws NoSuchElementException
-    last() throws NoSuchElementException
-    contains(X) returns false
-    isEmpty() returns true
-    size() returns 0
-    toString returns "[]"
-  Tests:
-    addToFront(X) throws no Exception
-    addToRear(X) throws no Exception
-    addAfter(X, Z) throws NoSuchElementException
-    add(X) throws no Exception
-    add(-1, X) throws IndexOutOfBoundsException
-    add(0, X) throws no Exception
-    add(1, X) throws IndexOutOfBoundsException
-    removeFirst() throws NoSuchElementException
-    removeLast() throws NoSuchElementException
-    remove(X) throws NoSuchElementException
+    remove(A) returns A //TODO did what @Pixel-Meister did to the other ones #close
     remove(-1) throws IndexOutOfBoundsException
     remove(0) throws IndexOutOfBoundsException
     remove(1) throws IndexOutOfBoundsException
@@ -398,33 +315,6 @@ Define tests for the 22 change scenarios, in addition to the 3 given as examples
 
 //TODO #17 Scenario 15 @Bloop1542
 15) [A] -> remove(0) -> []
-  Tests:
-    addToFront(X) throws no Exception
-    addToRear(X) throws no Exception
-    addAfter(X, Z) throws NoSuchElementException
-    add(X) throws no Exception
-    add(-1, X) throws IndexOutOfBoundsException
-    add(0, X) throws no Exception
-    add(1, X) throws IndexOutOfBoundsException
-    removeFirst() throws NoSuchElementException
-    removeLast() throws NoSuchElementException
-    remove(X) throws NoSuchElementException
-    remove(-1) throws IndexOutOfBoundsException
-    remove(0) throws IndexOutOfBoundsException
-    remove(1) throws IndexOutOfBoundsException
-    set(-1, X) throws IndexOutOfBoundsException
-    set(0, X) throws IndexOutOfBoundsException
-    set(1, X) throws IndexOutOfBoundsException
-    get(-1) throws IndexOutOfBoundsException
-    get(0) throws IndexOutOfBoundsException
-    get(1) throws IndexOutOfBoundsException
-    indexOf(X) returns -1
-    first() throws NoSuchElementException
-    last() throws NoSuchElementException
-    contains(X) returns false
-    isEmpty() returns true
-    size() returns 0
-    toString returns "[]"
   Tests:
     addToFront(X) throws no Exception
     addToRear(X) throws no Exception
