@@ -29,6 +29,7 @@ Define tests for the 22 change scenarios, in addition to the 3 given as examples
     toString returns "[]"
 
 //TODO #10 Scenario 2 @yycholla
+//TODO Add test for overloaded remove method @Pixel-Meister
 2) [] -> addToFront(A) -> [A]
   Tests:
       addToFront(X) throws no Exception
@@ -43,6 +44,7 @@ Define tests for the 22 change scenarios, in addition to the 3 given as examples
       removeFirst() returns A
       removeLast() returns A
       remove(X) throws NoSuchElementException
+      remove(A) returns A
       remove(-1) throws IndexOutOfBoundsException
       remove(0) returns A
       remove(1)throws IndexOutOfBoundsException
@@ -77,6 +79,7 @@ Define tests for the 22 change scenarios, in addition to the 3 given as examples
       removeFirst() returns A
       removeLast() returns A
       remove(X) throws NoSuchElementException
+      remove(A) returns A
       remove(-1) throws IndexOutOfBoundsException
       remove(0) returns A
       remove(1)throws IndexOutOfBoundsException
@@ -111,6 +114,7 @@ Define tests for the 22 change scenarios, in addition to the 3 given as examples
       removeFirst() returns A
       removeLast() returns A
       remove(X) throws NoSuchElementException
+      remove(A) returns A
       remove(-1) throws IndexOutOfBoundsException
       remove(0) returns A
       remove(1)throws IndexOutOfBoundsException
@@ -145,6 +149,7 @@ Define tests for the 22 change scenarios, in addition to the 3 given as examples
       removeFirst() returns A
       removeLast() returns A
       remove(X) throws NoSuchElementException
+      remove(A) retuns A
       remove(-1) throws IndexOutOfBoundsException
       remove(0) returns A
       remove(1)throws IndexOutOfBoundsException
